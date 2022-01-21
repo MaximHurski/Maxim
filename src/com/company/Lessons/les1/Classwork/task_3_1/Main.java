@@ -2,6 +2,7 @@ package com.company.Lessons.les1.Classwork.task_3_1;
 import java.util.Scanner;
 //Пользователь вводит число. Отображаем название дня недели,
 //иначе, что такого дня нет (т.е переписать 2.3 с другой конструкцией)
+//+, but naming could be better
 class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
