@@ -7,8 +7,9 @@ class Main {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Enter number of the month:");
+        //naming
         int num1 = scan.nextInt();
-
+//do you remember what can we write to combine several cases? (case1:case2:System.out.println("Your season is winter");break;.......) Your code is redundant
         switch (num1) {
             case 1:
                 System.out.println("Your season is winter");
