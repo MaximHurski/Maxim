@@ -14,9 +14,9 @@ public class Main {
         System.out.println("Enter third number: ");
         double num3 = scan.nextDouble();
 
-        if (num1 >= num2 & num1 >= num3) {
+        if (num1 > num2 & num1 > num3) {
             System.out.println("Biggest number is " + num1);
-        } else if (num2 >= num1 & num2 >= num3) {
+        } else if (num2 > num3) {
             System.out.println("Biggest number is " + num2);
         } else {
             System.out.println("Biggest number is " + num3);
