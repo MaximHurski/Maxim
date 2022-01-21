@@ -9,6 +9,7 @@ class Main {
         double num1 = scan.nextDouble();
         System.out.println("Enter second number:");
         double num2 = scan.nextDouble();
+        //declare variables just before it's usage. You could do it in the 21st line
         double result;
 
         System.out.println("Enter action:");
@@ -21,6 +22,7 @@ class Main {
         switch (action) {
             case 1:
                 result = num1 + num2;
+                //you duplicate this message in all cases. We could just assign result and print after switch-case
                 System.out.println("Your result is: " + result);
                 break;
             case 2:
