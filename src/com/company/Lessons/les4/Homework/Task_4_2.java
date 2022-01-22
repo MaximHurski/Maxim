@@ -12,7 +12,6 @@ public class Task_4_2 {
         int num1 = scan.nextInt();
         System.out.println("Enter second number:");
         int num2 = scan.nextInt();
-
         int sum = 0;
         //or i<num1
         for (int i = 0; i != num1; i++ ) {
