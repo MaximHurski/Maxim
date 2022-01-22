@@ -8,9 +8,9 @@ class Main {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Enter number of the day:");
-        int num1 = scan.nextInt();
+        int day = scan.nextInt();
 
-        switch (num1) {
+        switch (day) {
             case 1:
                 System.out.println("Your day is Monday");
                 break;
