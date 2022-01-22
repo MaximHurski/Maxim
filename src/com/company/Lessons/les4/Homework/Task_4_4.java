@@ -9,8 +9,9 @@ public class Task_4_4 {
         //use better naming and there will be no need in commets
         double sum = 10;     //Итоговый пробег (в первый день 10км)
         double n = 10;       // % увеличения нормы
+        int day = 7;
         //7 - magic number
-        for (double i = 1; i < 7; i++) {
+        for (double i = 1; i < day; i++) {
             n = n * 1.1;
             sum += n;
         }

@@ -17,7 +17,7 @@ public class Task_4_2 {
         //or i<num1
         for (int i = 0; i != num1; i++ ) {
             //sum+=num2
-            sum = sum + num2;
+            sum+=num2;
         }
         System.out.println("Multiplication number1 and number2 is = " + sum);
         }

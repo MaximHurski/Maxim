@@ -6,8 +6,9 @@ package com.company.Lessons.les4.Homework;
 public class Task_4_1 {
     public static void main(String[] args) {
         int amoeb = 1;
+        int hour = 24;
 //24 - magic number, use const.
-        for (int i = 3; i <= 24; i = i + 3) {
+        for (int i = 3; i <= hour; i = i + 3) {
             amoeb = amoeb*2;
 
             System.out.println("Day " + i + " we have- " + amoeb + " amoebas");
