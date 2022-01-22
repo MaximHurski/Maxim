@@ -1,7 +1,7 @@
 package com.company.Lessons.les4.Homework;
 
 //нарисовать оставшиеся 2 треугольника
-
+//+
 public class Task_4_6 {
     public static void main(String[] args) {
 
