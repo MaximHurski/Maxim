@@ -1,7 +1,7 @@
 package com.company.Lessons.les4.Homework;
+import java.util.Scanner;
 
-import java.util.Scanner;
-import java.util.Scanner;
+//Составьте программу, вычисляющую A*B, не пользуясь операцией умножения
 
 public class Task_4_2 {
     public static void main(String[] args) {
@@ -16,7 +16,7 @@ public class Task_4_2 {
         for (int i = 0; i != num1; i++ ) {
             sum = sum + num2;
         }
-        System.out.println(sum);
+        System.out.println("Multiplication number1 and number2 is = " + sum);
         }
     }
 
