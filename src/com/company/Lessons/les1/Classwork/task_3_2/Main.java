@@ -11,40 +11,27 @@ class Main {
 
         switch (num1) {
             case 1:
-                System.out.println("Your season is winter");
-                break;
             case 2:
+            case 12:
                 System.out.println("Your season is winter");
                 break;
+
             case 3:
-                System.out.println("Your season is spring");
-                break;
             case 4:
-                System.out.println("Your season is spring");
-                break;
             case 5:
                 System.out.println("Your season is spring");
                 break;
+
             case 6:
-                System.out.println("Your season is summer");
-                break;
             case 7:
-                System.out.println("Your season is summer");
-                break;
             case 8:
                 System.out.println("Your season is summer");
                 break;
+
             case 9:
-                System.out.println("Your season is autumn");
-                break;
             case 10:
-                System.out.println("Your season is autumn");
-                break;
             case 11:
                 System.out.println("Your season is autumn");
-                break;
-            case 12:
-                System.out.println("Your season is winter");
                 break;
 
             default:

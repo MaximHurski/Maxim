@@ -7,21 +7,21 @@ class Main {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Enter number of the day:");
-        int num1 = scan.nextInt();
+        int day = scan.nextInt();
 
-        if (num1 == 1) {
+        if (day == 1) {
             System.out.println("Your day is Monday");
-        } else if (num1 == 2) {
+        } else if (day == 2) {
             System.out.println("Your day is Tuesday");
-        } else if (num1 == 3) {
+        } else if (day == 3) {
             System.out.println("Your day is Wednesday");
-        } else if (num1 == 4) {
+        } else if (day == 4) {
             System.out.println("Your day is Thursday");
-        } else if (num1 == 5) {
+        } else if (day == 5) {
             System.out.println("Your day is Friday");
-        } else if (num1 == 6) {
+        } else if (day == 6) {
             System.out.println("Your day is Saturday");
-        } else if (num1 == 7) {
+        } else if (day == 7) {
             System.out.println("Your day is Sunday");
         } else {
             System.out.println("Sorry, enter number 1-7");
