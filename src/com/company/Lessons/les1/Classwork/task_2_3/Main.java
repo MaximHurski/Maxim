@@ -1,7 +1,7 @@
 package com.company.Lessons.les1.Classwork.task_2_3;
 import java.util.Scanner;
 // Пользователь вводит число. Отображаем название дня недели, иначе, что такого дня нет.
-
+//+, but think of better naming: num1 does not tell me anything
 class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

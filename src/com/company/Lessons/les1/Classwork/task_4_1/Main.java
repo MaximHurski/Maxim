@@ -9,7 +9,7 @@ class Main {
         double num1 = scan.nextDouble();
         System.out.println("Enter second number:");
         double num2 = scan.nextDouble();
-        double result = 0.0;
+        double result;
 
         System.out.println("Enter action:");
         System.out.println("1 - Sum");
@@ -21,28 +21,27 @@ class Main {
         switch (action) {
             case 1:
                 result = num1 + num2;
-
+                System.out.println("Your result is: " + result);
                 break;
             case 2:
                 if (num2 == 0)
                     System.out.println("Error");
                 else {
                     result = num1 / num2;
-
+                    System.out.println("Your result is: " + result);
                 }
                 break;
             case 3:
                 result = num1 - num2;
-
+                System.out.println("Your result is: " + result);
                 break;
             case 4:
                 result = num1 * num2;
-
+                System.out.println("Your result is: " + result);
                 break;
             default:
                 System.out.println("Sorry, something wrong");
-
-        }System.out.println("Your result is: " + result);
+        }
     }
 }
 

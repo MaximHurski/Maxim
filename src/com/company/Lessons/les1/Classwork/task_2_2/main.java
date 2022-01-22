@@ -11,7 +11,7 @@ class Main {
         System.out.println("Enter second number: ");
         double num2 = scan.nextDouble();
         double res = num1 % num2;
-
+//ok, but you could place 13 line in 15 :)
         if( res == 0 ) {
             System.out.println("first number multiple second number");
         } else {

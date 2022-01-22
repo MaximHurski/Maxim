@@ -2,6 +2,7 @@ package com.company.Lessons.les1.Classwork.task_4_2;
 import java.util.Scanner;   
 //Калькулятор.
 //Вместо того, чтобы выбирать операцию по числу (1 – sum, 2 – division и тп), используем символы
+//same comments as task_4_1
 class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

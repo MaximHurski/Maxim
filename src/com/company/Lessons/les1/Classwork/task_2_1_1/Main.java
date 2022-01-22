@@ -3,6 +3,7 @@ package com.company.Lessons.les1.Classwork.task_2_1_1;
 import java.util.Scanner;
 // Пользователь вводит 3 числа. Найти максимальное и вывести его.
 // Решить 2 способами: 1-через вложенный if, т.е if(condition){if(condition)…}…,
+//+
 public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
