@@ -10,6 +10,7 @@ public class Task_5_2 {
         while (i <= max) {
             i++;
             {
+                //cool option
                 if (i % 2 != 0)
                     continue;
                 System.out.print(i + " ");
