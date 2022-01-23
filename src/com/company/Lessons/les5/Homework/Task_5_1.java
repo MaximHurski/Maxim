@@ -1,7 +1,8 @@
 package com.company.Lessons.les5.Homework;
 
 // Вычислить: 1+2+4+8+...+256
-
+//Ctrl+Alt+L would make your life more beautiful :)
+//+
 public class Task_5_1 {
     public static void main(String[] args) {
 
