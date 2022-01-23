@@ -10,6 +10,8 @@ public class Task_5_4 {
         int i = 1;
         int sumEven = 0;
         final int max = 99;
+        //same as previous with strange block of code, think of a better one, where we use i++ at the end. Also we can simplify
+        //the solution by finding all sums in 1 loop
         while (i <= max) {
             i++;
             {
