@@ -1,6 +1,7 @@
 package com.company.Lessons.les7;
 
 import java.util.Scanner;
+//What did I say about doing all this operations in 1 loop?
 
 public class Exam2 {
 
