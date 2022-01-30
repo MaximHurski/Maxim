@@ -10,6 +10,7 @@ public class Exam {
             boolean continueCalculation = true;
 
             Scanner scan = new Scanner(System.in);
+            //no need to write ==true :), just  while (continueCalculation){...}
             while (continueCalculation == true) {
 
                 System.out.println("Enter first number:");
