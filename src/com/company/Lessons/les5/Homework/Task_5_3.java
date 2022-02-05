@@ -17,9 +17,11 @@ public class Task_5_3 {
                     continue;
                 sum += i;
                 System.out.print(i + " ");
+
             }
-        }System.out.print("\n");
-        System.out.print("Sum of odd numbers = "+ sum);
+        }
+        System.out.print("\n");
+        System.out.print("Sum of odd numbers = " + sum);
     }
 }
 

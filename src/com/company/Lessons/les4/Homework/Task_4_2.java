@@ -14,7 +14,7 @@ public class Task_4_2 {
         int num2 = scan.nextInt();
         int sum = 0;
         //or i<num1
-        for (int i = 0; i != num1; i++ ) {
+        for (int i = 0; i < num1; i++ ) {
             //sum+=num2
             sum+=num2;
         }

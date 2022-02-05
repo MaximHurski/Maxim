@@ -15,7 +15,8 @@ public class Task_5_2 {
                     continue;
                 System.out.print(i + " ");
             }
-        }System.out.print(" - are even numbers");
+        }
+        System.out.print(" - are even numbers");
     }
 }
 

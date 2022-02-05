@@ -21,7 +21,7 @@ public class Exam2 {
                     } else {
                         sumOdd += i;
                 }
-                    i++;
+                i++;
             }
             System.out.println("Sum of even numbers = " + sumEven);
             System.out.println("Sum of odd numbers = " + sumOdd);
