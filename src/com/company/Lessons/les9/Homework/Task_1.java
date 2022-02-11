@@ -1,6 +1,7 @@
 package com.company.Lessons.les9.Homework;
 import java.util.Scanner;
 //Вывести таблицу умножения используя двумерный массив
+//+
 public class Task_1 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
