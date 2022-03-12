@@ -12,6 +12,7 @@ public class Task_3 {
         Random random = new Random();
         int[][] twoDimArray = new int[size][size];
         for (int i = 0; i < twoDimArray.length; i++) {
+            //every time you create new sum. Consider moving it befort for and then only reassign here with 0. Be smart, save memory :)
             int sum = 0;
             for (int j = 0; j < twoDimArray[i].length; j++) {
                 twoDimArray[i][j] = random.nextInt(size);

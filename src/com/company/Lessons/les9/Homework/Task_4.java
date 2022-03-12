@@ -13,6 +13,7 @@ public class Task_4 {
         int sumDiag = 0;
         int diagonal = 0;
         int[][] twoDimArray = new int[size][size];
+        //ok, but could be done with if(i==j)
         for (int i = 0; i < twoDimArray.length; i++) {
             for (int j = 0; j < twoDimArray[i].length; j++) {
                 twoDimArray[i][j] = random.nextInt(size);
