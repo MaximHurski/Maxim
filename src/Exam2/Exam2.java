@@ -40,7 +40,7 @@ public class Exam2 {
 
     static int initSize(Scanner scanner) {
         int size = scanner.nextInt();
-        if (size < 0) {
+        if (size <= 0) {
             System.out.println("enter positive number");
             initSize(scanner);
         }
