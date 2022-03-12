@@ -28,10 +28,11 @@ public class Exam2 {
             }
             System.out.println("min number: " + minimalNumber(array));
             System.out.println("max number: " + maximumNumber(array));
-
+//where is method for finding index?
             sortArray(array);
             System.out.println("sorted array: " + Arrays.toString(array));
         } else if (typeArray == 2) {
+            //ok, but do it LATER!
             System.out.println("In process....");
         } else {
             System.out.println("only '1' or '2'");
@@ -46,7 +47,7 @@ public class Exam2 {
         }
         return size;
     }
-
+//initScannerArray
     static int[] scannerArray(Scanner scanner, int[] array) {
         System.out.println("Enter array element: ");
         for (int i = 0; i < array.length; i++) {
@@ -56,18 +57,18 @@ public class Exam2 {
         return array;
 
     }
-
+//initRandomArray
     static int[] randomArray(Random random, int[] array) {
         for (int i = 0; i < array.length; i++) {
             array[i] = random.nextInt(100);
         }
         return array;
     }
-
+//printArray or outputArray
     static void outputNumbers(int[] array) {
         System.out.println(Arrays.toString(array));
     }
-
+//findMinNumber
     static int minimalNumber(int[] array) {
         int min = array[0];
         for (int i = 1; i < array.length; i++) {
@@ -77,7 +78,7 @@ public class Exam2 {
         }
         return min;
     }
-
+//findMaxNumber
     static int maximumNumber(int[] array) {
         int max = array[0];
         for (int i = 1; i < array.length; i++) {
