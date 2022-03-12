@@ -12,7 +12,7 @@ public class Exam2 {
         System.out.println("1- numbers, 2- strings");
         int typeArray = scanner.nextInt();
         if (typeArray == 1) {
-            System.out.println("How do you want to initialize the array?");
+            System.out.println("Enter array initialization type");
             System.out.println("1- manual, 2- random");
             int fillingType = scanner.nextInt();
             System.out.println("Enter array length");
