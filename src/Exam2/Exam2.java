@@ -19,7 +19,6 @@ public class Exam2 {
             int[] array = new int[initSize(scanner)];
             if (fillingType == 1) {
                 int[] initArray = scannerArray(scanner, array);
-                System.out.println("Enter array element [0]");
                 outputNumbers(initArray);
             } else if (fillingType == 2) {
                 int[] initArray = randomArray(random, array);
