@@ -31,6 +31,8 @@ public class Exam2 {
             System.out.println("Enter array length");
             int[] array = new int[initSize(scanner)];
             if (fillingType == 1) {
+                 //it's not logical that you pass an array which you want to initialize and return another one.
+                //pass 'length' parameter to initScannerArray and return created array
                 int[] initArray = initScannerArray(scanner, array);
                 outputArray(initArray);
             } else if (fillingType == 2) {
@@ -39,7 +41,7 @@ public class Exam2 {
             } else {
                 System.out.println("Error");
             }
-            System.out.println("Min number: " + findMinNumber(array));
+            System.out.println("Min number: " + findMinNumber(array));//why do you use 'array' but not 'initArray'? 
             System.out.println("Max number: " + findMaxNumber(array));
 //where is method for finding index?
             System.out.println("Enter number whose index you want to find:");
@@ -73,7 +75,7 @@ public class Exam2 {
         return size;
     }
 
-    //initScannerArray
+    //initScannerArray ->delete comment
     static int[] initScannerArray(Scanner scanner, int[] array) {
         System.out.println("Enter " + array.length + " numbers");
         for (int i = 0; i < array.length; i++) {
@@ -84,7 +86,7 @@ public class Exam2 {
     }
 
 
-    //initRandomArray
+    //initRandomArray ->delete comment
     static int[] initRandomArray(Random random, int[] array) {
         for (int i = 0; i < array.length; i++) {
             array[i] = random.nextInt(100);
@@ -93,12 +95,12 @@ public class Exam2 {
     }
 
 
-    //printArray or outputArray
+    //printArray or outputArray ->delete comment
     static void outputArray(int[] array) {
         System.out.println(Arrays.toString(array));
     }
 
-    //findMinNumber
+    //findMinNumber ->delete comment
     static int findMinNumber(int[] array) {
         int min = array[0];
         for (int i = 1; i < array.length; i++) {
@@ -109,7 +111,7 @@ public class Exam2 {
         return min;
     }
 
-    //findMaxNumber
+    //findMaxNumber ->delete comment
     static int findMaxNumber(int[] array) {
         int max = array[0];
         for (int i = 1; i < array.length; i++) {
@@ -129,6 +131,7 @@ public class Exam2 {
     }
 
     static int initUserNum(Scanner scanner) {
+        //return scanner.nextInt();
         int userNum = scanner.nextInt();
         return userNum;
     }
@@ -144,7 +147,7 @@ public class Exam2 {
         }
         return -1;
     }
-
+//look at my solution: https://github.com/Lizaveta-CR/overone104/blob/master/src/overone104/com/lessons/les_15/exam/ExamTask.java
     static String changeTheLetter(String[] array, String letter) {
         System.out.println("I give up(((((");
         return String.valueOf(array);
