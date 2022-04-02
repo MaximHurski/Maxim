@@ -6,23 +6,19 @@ import java.util.Scanner;
 public class Task_5 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Input lenth of massiv: ");
-        int lenth = scanner.nextInt();
-
-        int[] anArray = new int[lenth];
-
-        for (int i = 0; i < lenth; i++) {
-            System.out.println("Input number: ");
-            anArray[i] = scanner.nextInt();
-        }
-        System.out.println("Input 1 number: ");
-        int number = scanner.nextInt();
-        int j = 0;
-        while (j<lenth) {
-            if (number == anArray[j]) ;
-            System.out.print(" " + anArray[j]);
-            break;
-        }
-            j++;
+        int[] anArray = {1, 2, 3, 6, 8, 4, 45, 12, 46, 7, 20};
+        int i = 0;
+        System.out.println("Введи число которое сравним с массивом");
+        int userIn = scanner.nextInt();
+        do {
+            if (userIn == anArray[i]) {
+                System.out.println("В массиве есть число " + anArray[i]);
+                break;
+            }
+            if(i==anArray.length-1) {
+                System.out.println("В массиве нет числа " + userIn);
+            }
+            i++;
+        } while (i < anArray.length);
         }
     }

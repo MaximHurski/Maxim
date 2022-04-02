@@ -24,6 +24,7 @@ public class Exam {
                 System.out.println("'/' - Division");
                 System.out.println("'-' - Difference");
                 System.out.println("'*' - Multiplication");
+
                 String action = scan.nextLine();
                 action = scan.nextLine();
 
